@@ -1,0 +1,69 @@
+{
+  "name": "react-native-template-rnbasic",
+  "version": "1.0.3",
+  "description": "rn模版",
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@ant-design/icons-react-native": "^2.3.2",
+    "@ant-design/react-native": "^4.2.0",
+    "@react-native-community/async-storage": "^1.12.1",
+    "@react-native-community/cameraroll": "^4.1.2",
+    "@react-native-community/segmented-control": "^2.2.2",
+    "@react-native-community/slider": "^4.1.12",
+    "@react-native-picker/picker": "^2.2.1",
+    "@react-navigation/bottom-tabs": "^6.0.9",
+    "@react-navigation/native": "^6.0.6",
+    "@react-navigation/stack": "^6.0.11",
+    "axios": "^0.24.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "qs": "^6.10.2",
+    "react": "17.0.2",
+    "react-native": "0.66.3",
+    "react-native-elements": "^3.4.2",
+    "react-native-fast-image": "^8.5.11",
+    "react-native-gesture-handler": "^2.1.0",
+    "react-native-image-picker": "^4.4.2",
+    "react-native-modal": "^13.0.0",
+    "react-native-modal-dropdown": "^1.0.2",
+    "react-native-pager-view": "^5.4.9",
+    "react-native-safe-area-context": "^3.3.2",
+    "react-native-screens": "^3.10.1",
+    "react-native-vector-icons": "^9.0.0",
+    "react-navigation-redux-helpers": "^4.0.1",
+    "react-redux": "^7.2.6",
+    "redux": "^4.1.2",
+    "redux-actions": "^2.6.5",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.4.1",
+    "teaset": "^0.7.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/runtime": "^7.16.3",
+    "@react-native-community/eslint-config": "^3.0.1",
+    "babel-jest": "^27.4.2",
+    "eslint": "^8.4.0",
+    "jest": "^27.4.3",
+    "metro-react-native-babel-preset": "^0.66.2",
+    "react-test-renderer": "17.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/springHyc/jsUtils.git"
+  },
+  "keywords": [
+    "basic"
+  ],
+  "author": "MrMessy77",
+  "license": "MIT",
+  "jest": {
+    "preset": "react-native"
+  }
+}
