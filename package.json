@@ -1,13 +1,15 @@
 {
   "name": "react-native-template-rnbasic",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "rn模版",
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "iosBundle": "node node_modules/react-native/local-cli/cli.js bundle --entry-file index.js  --platform ios --dev false --bundle-output ./ios/bundle/main.jsbundle --assets-dest ./ios/bundle",
+    "androidBundle": "cd android && ./gradlew assembleRelease && open app/build/outputs/apk"
   },
   "dependencies": {
     "@ant-design/icons-react-native": "^2.3.2",

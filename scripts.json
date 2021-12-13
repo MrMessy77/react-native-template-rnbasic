@@ -1,0 +1,4 @@
+{
+  "iosBundle": "node node_modules/react-native/local-cli/cli.js bundle --entry-file index.js  --platform ios --dev false --bundle-output ./ios/bundle/main.jsbundle --assets-dest ./ios/bundle",
+  "androidBundle": "cd android && ./gradlew assembleRelease && open app/build/outputs/apk"
+}
