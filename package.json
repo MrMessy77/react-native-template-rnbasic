@@ -1,6 +1,6 @@
 {
   "name": "react-native-template-rnbasic",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "rn模版",
   "scripts": {
     "android": "react-native run-android",
@@ -58,14 +58,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/springHyc/jsUtils.git"
+    "url": "git@github.com:MrMessy77/react-native-template-rnbasic.git"
   },
   "keywords": [
     "basic"
   ],
   "author": "MrMessy77",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MrMessy77/react-native-template-rnbasic/issues"
+  },
+  "homepage": "https://github.com/MrMessy77/react-native-template-rnbasic",
   "jest": {
     "preset": "react-native"
-  }
+  },
+  "files": ["src", "index.js", "global.js", "dependencies.json", "scripts.json"]
 }
