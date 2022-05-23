@@ -1,9 +1,14 @@
 import pxToDp from './pxToDp';
-import style from './style';
+import style, { colors } from './style';
 import config from './config';
+import ImagePicker from './imagePicker';
+import util from './util';
 
 export {
   config,
   style,
-  pxToDp
+  colors,
+  pxToDp,
+  util,
+  ImagePicker
 }

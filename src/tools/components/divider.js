@@ -3,7 +3,7 @@ import { View, StyleSheet } from 'react-native';
 
 export default Divider = (props) => {
     const {
-        backgroundColor = 'rgba(0, 0, 0, 0.09)',
+        backgroundColor = '#E1E1E1',
         direction = 'row',
         style = {},
         width

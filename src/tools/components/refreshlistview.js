@@ -19,19 +19,19 @@ class RefreshListView extends PureComponent {
             return
         }
 
-        this.props.onHeaderRefresh && console.log('下拉获取数据中');
+        // this.props.onHeaderRefresh && console.log('下拉获取数据中');
         this.props.onHeaderRefresh && this.props.onHeaderRefresh(RefreshState.HeaderRefreshing);
     };
 
     onEndReached = (info) => {
-        console.log(`距离底部${info.distanceFromEnd}`);
+        // console.log(`距离底部${info.distanceFromEnd}`);
 
         let { refreshState, data } = this.props;
         if (data.length == 0) {
             return
         }
 
-        refreshState == RefreshState.Idle && this.props.onFooterRefresh && console.log('上拉获取数据中');
+        // refreshState == RefreshState.Idle && this.props.onFooterRefresh && console.log('上拉获取数据中');
         refreshState == RefreshState.Idle && this.props.onFooterRefresh && this.props.onFooterRefresh(RefreshState.FooterRefreshing);
     };
 
