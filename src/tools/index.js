@@ -3,6 +3,7 @@ import style, { colors } from './style';
 import config from './config';
 import ImagePicker from './imagePicker';
 import util from './util';
+import Network from './network';
 
 export {
   config,
@@ -10,5 +11,6 @@ export {
   colors,
   pxToDp,
   util,
-  ImagePicker
+  ImagePicker,
+  Network
 }
